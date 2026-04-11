@@ -2,13 +2,12 @@
   	body{
 	     font-family:Arial,sans-serif;
 	    background-color:gray;
+	   }
          .header{
             background-color:#5F9EA0;
             color: white;
             padding: 20px;
 			text-align : center;
-	
-	
 	   }
         .header img{
 	       width:50px;
@@ -61,8 +60,6 @@
             padding: 20px;
 			color:white;
 			background-image:url("image/imagee.jpg");
-		    
-		     
 			
         }
 	
@@ -71,17 +68,13 @@
             height:160px;
 	        text-align:right;
 	        color-textr:gray;       
-        
-	
 		}
 
 
 	 .footer{
 	    background-color:#2F4F4F;
-	    padding20px;
 	    text-align:center;
 	    clear:both;
-	    padding:15px;
+	    padding:20;
 	    color :white;
-	}
 	}
