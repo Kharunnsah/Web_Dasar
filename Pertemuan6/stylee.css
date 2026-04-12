@@ -71,7 +71,7 @@
 		    width:400px;
             height:160px;
 	        text-align:right;
-	        color-textr:gray;       
+	        color:gray;       
         
 	
 		}
@@ -79,10 +79,9 @@
 
 	 .footer{
 	    background-color:#2F4F4F;
-	    padding20px;
 	    text-align:center;
 	    clear:both;
-	    padding:15px;
+	    padding:20px;
 	    color :white;
 	}
 	
