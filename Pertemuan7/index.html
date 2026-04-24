@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Jurusan Teknologi Informasi</title>
+</head>
+<body>
+  <div class = "container">
+      <h3>Jurusan Teknologi Informasi</h3>
+      <!--Navigasi-->
+    <ul class="nav nav-pills mb-3">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" data-bs-toggle="pill" href="#Home">Home</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#Profile">Profile</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#Prodi">Program Studi</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#Akreditasi">Akreditasi</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#Kontak">Kontak</a>
+      </li>
+      </ul>
+
+      <div class="tab-content">
+      <!--home--> 
+        <div class="tab-pane fade show active"id="Home">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/ti.jpg" class="img-fluid mb-3"alt="Teknologi Innformasi" style="max-width: 500px;">
+              <h1>Selamat Datang</h1>
+              <p>Website Teknologi Informasi</p>
+
+              <!--Tombol Interaktif-->
+              <button onclick="hallo()" class = "btn btn-success">klik saya</button>
+              <!--Tombol Modal-->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Lihat Informasi
+</button>
+
+            </div>
+        </div>
+        </div>
+      <!--Profile-->
+    <div class="tab-pane fade" id="Profile">
+        <h3>Profile</h3>
+        <p>Ini adalah halaman profile teknologi informasi</p>
+    </div>
+    <!--Program studi-->
+        <div class="tab-pane fade" id="Prodi">
+            <div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">D3 Tkom</h5>
+        <p class="card-text">Program studi D3 Teknik Komputer</p>
+        <a href="https://ti.pnp.ac.id/teknik-komputer/" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">D4 Trpl</h5>
+        <p class="card-text">Program Studii D4 Teknologi Rekayasa Perangkat Lunak</p>
+        <a href="https://ti.pnp.ac.id/teknologi-rekayasa-perangkat-lunak/" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+      <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">D4 Animasi</h5>
+        <p class="card-text">Animasi</p>
+        <a href="https://ti.pnp.ac.id/animasi/" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+      <div class="col-sm-6">
+        <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">D3 MI</h5>
+            <p class="card-text">MI</p>
+              <a href="https://ti.pnp.ac.id/index.php/mi/" class="btn btn-primary">Go somewhere</a>
+          </div>
+            </div>
+              </div>
+            </div>
+        </div>
+        
+  <!--Akreditasi-->
+      <div class="tab-pane fade" id="Akreditasi">
+        <h3>Tabel Akreditasi</h3>
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">No</th>
+      <th scope="col">Program Studi</th>
+      <th scope="col">Jenjang</th>
+      <th scope="col">Akreditasi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Teknik Komputer</td>
+      <td>D3</td>
+      <td>Baik Sekali</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Manajemen Informatika</td>
+      <td>D3</td>
+      <td>Unggul</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>TRPL</td>
+      <td>D4</td> 
+      <td>Baik Sekali</td>
+    </tr>
+  </tbody>
+</table>
+      
+      </div>
+      <div class="tab-pane fade" id="Kontak">
+        <input class="form-control form-control-lg" type="text" placeholder="Nama" aria-label="Nama-lg example">
+        <input class="form-control" type="text" placeholder="Email" aria-label="Email example">
+        <input class="form-control form-control-sm" type="text" placeholder="Pesan" aria-label="Pesan example">
+          <button  class = "btn btn-success">Kirim</button>
+      </div>
+    </div>
+  </div>
+    <!-- Modal-->  
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+
+  
+
+      <!-- Bootstrap Bundle with Popper -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!--JavaSript-->
+<script>
+function hallo(){
+  alert("Selamat Datang di Jurusan TI")
+}
+  </script>
+</html>
